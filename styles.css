@@ -1,1 +1,102 @@
-/* Write your CSS here! */
+/* Main Styling */
+#mainHeading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    /* color: red; */
+    color: #183A37;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 25px;
+    color: #04151F;
+}
+
+a:hover {
+    color: #537F77;
+}
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #183A37;
+}
+
+body {
+    margin: 8px;
+    display: block;
+    background-color: #EFD6AC;
+    
+}
+
+article {
+    padding-bottom: 10px;
+}
+
+p {
+    color: #04151F;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+/* THIS IS FOR PURPOSES OF PASSING THE TESTS*/
+/* .funParagraph {
+    color: green;
+} */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #537F77;
+    padding-top: 10px;
+}
+
+/* Image Styling */
+figure {
+    padding-top: 40px;
+    float: right;
+}
+
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #537F77;
+}
+
+.images {
+    opacity: 0.85;
+    display: flexbox;
+    border-radius: 5px;
+}
+
+#sarah {
+    height: 300px;
+    width: 400px;
+}
+
+#cats {
+    height: 350px;
+    width: 275px;
+    margin-bottom: 10px;
+}
+
+#liveshot {
+    height: 275px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+#lcAcceptance {
+    margin-top: 30px;
+    height: 280px;
+    width: 400px;
+}
